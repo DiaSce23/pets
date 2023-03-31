@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Domine&family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Edu+VIC+WA+NT+Beginner:wght@700&family=IBM+Plex+Mono:wght@300&family=Inconsolata:wght@300;400;500&family=Indie+Flower&family=Kanit:ital,wght@1,900&family=Loved+by+the+King&family=Luxurious+Roman&family=Mukta:wght@400;500&family=Pacifico&family=Rubik+Iso&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(210, 22, 53),rgb(12, 167, 130));
+    background-position: 0 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+.container {
+    padding: 30px;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(255, 234, 13, 0.5);
+    font-size: 1em;
+    gap: 20px;
+
+}
+
+.price-row {
+    width: 50%;
+    max-width: 100%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-gap: 10px;
+   
+
+
+}
+
+.price-col {
+    background: rgba(245, 234, 116, 0.1);
+    padding: 10%;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 15px;
+}
+
+.price-col p {
+    font-size: 25px;
+    color: white ;
+}
+
+.price-col h3 {
+    font-size: 60px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+    height: 40px;
+}
+
+.price-col ul {
+    text-align: left;
+    list-style: none;
+}
+
+.price-col ul {
+    margin-left: auto ;
+    
+}
+
+.price-col ul li {
+    margin: 10px 0;
+    text-align: center;
+    grid-row: span;
+}
+
+
+.price-col button {
+    width: 100%;
+    padding: 14px 0;
+    background: rgb(228, 222, 155);
+    color: black;
+    font-size: 15px;
+    /* border: 1px solid blue; */
+    border-radius: 3px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.price-col button:hover {
+    background: rgba(149, 149, 21, 0.5);
+    animation:backwards;
+}
+
